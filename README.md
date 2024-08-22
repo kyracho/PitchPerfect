@@ -32,7 +32,6 @@ in list view
 
 <img width="303" alt="list view" src="https://github.com/user-attachments/assets/4260d5ac-9054-4e5f-a326-aac1b448c442">
 
-If there is no sound, please make sure that Silent Mode is off.
 
 **Settings > Sounds & Haptics > Turn off Silent Mode**.
 
