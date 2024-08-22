@@ -27,7 +27,8 @@ The notes represent the middle octave of the piano:
 
 The app icon seen in grid view
 
-<img width="306" alt="grid view" src="https://github.com/user-attachments/assets/0800e855-2fc8-4bd7-a1d6-2391dff0b8bc">
+<img width="307" alt="Screenshot 2024-08-22 at 12 45 47 AM" src="https://github.com/user-attachments/assets/73e4e77c-0de6-4c6d-b96a-8de3eba9b353">
+
 
 in list view
 
