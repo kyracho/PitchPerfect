@@ -6,7 +6,7 @@ Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
 
-The UI consists of "Play", "Play", and two arrows. 
+The UI consists of "Play", "Stop", and two arrows. 
 
 "Play" begins the note. The arrows increment the note (they can also begin the note), and "Stop" ends the note.
 
