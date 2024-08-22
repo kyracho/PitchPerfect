@@ -1,4 +1,4 @@
-###**Privacy Policy for Pitch Perfect Tuner**
+### **Privacy Policy for Pitch Perfect Tuner**
 
 Effective Date: Aug 21, 2024
 
