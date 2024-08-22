@@ -10,7 +10,7 @@ The UI consists of "Play", "Stop", and two arrows.
 
 "Play" begins the note. The arrows increment the note (and begin the note, if it's not already playing). "Stop" ends the note.
 
-The available notes represent the middle octave of the piano:
+The notes represent the middle octave of the piano:
 
 - 261.63: C
 - 277.18: C#
