@@ -27,13 +27,16 @@ The available notes represent the middle octave of the piano:
 
 The app's icon is a blue tuning fork icon:
 
-<img width="512" alt="icon" src="https://github.com/user-attachments/assets/62e22077-efc8-464c-9beb-e504e5aeebef">
+<img width="300" alt="icon" src="https://github.com/user-attachments/assets/62e22077-efc8-464c-9beb-e504e5aeebef">
 
 which can be seen in grid view as 
+
 
 <img width="306" alt="grid view" src="https://github.com/user-attachments/assets/0800e855-2fc8-4bd7-a1d6-2391dff0b8bc">
 
 or in list view as
+
+
 <img width="303" alt="list view" src="https://github.com/user-attachments/assets/4260d5ac-9054-4e5f-a326-aac1b448c442">
 
 
