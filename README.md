@@ -33,6 +33,8 @@ in list view
 
 <img width="303" alt="list view" src="https://github.com/user-attachments/assets/4260d5ac-9054-4e5f-a326-aac1b448c442">
 
-If there is no sound, please check **Settings > Sounds & Haptics > Turn off Silent Mode**.
+If there is no sound, please make sure that Silent Mode is off.
+
+**Settings > Sounds & Haptics > Turn off Silent Mode**.
 
 <img width="305" alt="Screenshot 2024-08-21 at 5 40 10 PM" src="https://github.com/user-attachments/assets/c92d6ff7-4553-4ca1-809b-9e01f0d5cd7a">
