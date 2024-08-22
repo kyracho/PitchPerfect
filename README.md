@@ -1,6 +1,6 @@
 # Pitch Perfect
 
-A watchOS app with a simple but useful functionality, available in the App Store. 
+A watchOS app with a simple but useful functionality. Available in the App Store. 
 
 Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go! Designed for musicians of all levels, this easy-to-use app plays every note of the chromatic scale with precision. Whether you're tuning a guitar, piano, or any other instrument, Pitch Perfect Tuner ensures your sound is always in harmony. 
 
