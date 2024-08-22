@@ -32,7 +32,7 @@ class TonePlayer: ObservableObject {
     ]
     
     private let noteNames: [String] = [
-        " C ", 
+        " C ",
         "C#",
         " D ",
         "D#",
@@ -51,7 +51,7 @@ class TonePlayer: ObservableObject {
         playerNode = AVAudioPlayerNode()
         audioEngine.attach(playerNode)
         
-        let sampleRate: Double = 44100.0
+        let sampleRate: Double = 4000.0 // Set sample rate to 4 kHz
         audioFormat = AVAudioFormat(standardFormatWithSampleRate: sampleRate, channels: 1)!
         
         audioEngine.connect(playerNode, to: audioEngine.mainMixerNode, format: audioFormat)
@@ -64,7 +64,8 @@ class TonePlayer: ObservableObject {
     }
     
     private func generateToneBuffer(frequency: Float) -> AVAudioPCMBuffer {
-        let frameCount = Int(audioFormat.sampleRate * 1.0) // 1-second buffer
+        let durationInSeconds: Double = 30.0 // 30 seconds = 30 seconds
+        let frameCount = Int(audioFormat.sampleRate * durationInSeconds) // Calculate the total frame count for 30 seconds
         let buffer = AVAudioPCMBuffer(pcmFormat: audioFormat, frameCapacity: AVAudioFrameCount(frameCount))!
         buffer.frameLength = AVAudioFrameCount(frameCount)
         
@@ -77,6 +78,7 @@ class TonePlayer: ObservableObject {
         
         return buffer
     }
+
     
     func play() {
         let frequency = noteFrequencies[currentNoteIndex]
@@ -114,55 +116,81 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            // Title at the top
+            Text("Pitch Perfect Tuner")
+                .font(.system(size: 15))
+                .padding(.bottom, 10)
+
             HStack {
                 Button(action: {
                     tonePlayer.previousNote()
                 }) {
                     Image(systemName: "arrow.left.circle.fill")
                         .font(.system(size: 40))
+                        .padding(.horizontal, 15)
+                        .padding(.vertical, 10)
+                        .background(
+                            Color.black
+                                .cornerRadius(5.0)
+                        )
                 }
                 
                 Text(tonePlayer.currentNoteName())
-                    .font(.system(size: 25))
+                    .font(.system(size: 23))
                     .padding()
+                
                 Button(action: {
                     tonePlayer.nextNote()
                 }) {
                     Image(systemName: "arrow.right.circle.fill")
                         .font(.system(size: 40))
+                        .padding(.horizontal, 15)
+                        .padding(.vertical, 10)
+                        .background(
+                            Color.black
+                                .cornerRadius(5.0)
+                        )
                 }
             }
-            .padding(.bottom, 25)
-            
+            .padding(.bottom, 15)
+            .padding(.top, 15)
+ 
             HStack {
-                Button(action: {
-                    tonePlayer.play()
-                }) {
-                    Text("Play")
-                        .font(.system(size: 16))
-                        .frame(width: 62, height: 40)
-                        .background(
-                            RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.green)
-                                .shadow(color: .green.opacity(0.5), radius: 5, x: 0, y: 2)
-                        )
-                        .foregroundColor(.white)
-                }
-                
-                Button(action: {
-                    tonePlayer.stop()
-                }) {
-                    Text("Stop")
-                        .font(.system(size: 16))
-                        .frame(width: 62, height: 40)
-                        .background(
-                            RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.red)
-                                .shadow(color: .red.opacity(0.5), radius: 5, x: 0, y: 2)
-                        )
-                        .foregroundColor(.white)
+                GeometryReader { geometry in
+                    Button(action: {
+                        tonePlayer.play()
+                    }) {
+                        Text("Play")
+                            .frame(width: geometry.size.width / 2.5 - 20) // Adjust width based on screen size
+                            .padding(.horizontal, 15)
+                            .padding(.vertical, 10)
+                            .background(
+                                LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .leading, endPoint: .trailing)
+                                    .cornerRadius(5.0)
+                            )
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .position(x: geometry.size.width / 4, y: geometry.size.height / 2)
+
+                    Button(action: {
+                        tonePlayer.stop()
+                    }) {
+                        Text("Stop")
+                            .frame(width: geometry.size.width / 2.5 - 20) // Adjust width based on screen size
+                            .padding(.horizontal, 15)
+                            .padding(.vertical, 10)
+                            .background(
+                                LinearGradient(gradient: Gradient(colors: [.orange, .red]), startPoint: .leading, endPoint: .trailing)
+                                    .cornerRadius(5.0)
+                            )
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .position(x: 3 * geometry.size.width / 4, y: geometry.size.height / 2)
                 }
             }
+            .frame(height: 50) // Set a fixed height for the HStack
+
+          
             .padding(.top, 10)
         }
         .padding()
@@ -183,3 +211,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
