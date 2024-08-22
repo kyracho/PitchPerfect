@@ -1,14 +1,14 @@
 # Pitch Perfect
 
-A watchOS app with a simple but useful functionality. Available in the App Store now!
+A watchOS app with a simple but useful functionality. Available in the App Store.
 
 Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go! Designed for musicians of all levels, this easy-to-use app plays every note of the chromatic scale. Whether you're tuning a guitar, piano, or any other instrument, Pitch Perfect Tuner ensures your sound is always in tune. 
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
 
-The UI consists of a play button, a stop button, and two arrow buttons. 
+The UI consists of "Play", "Play", and two arrows. 
 
-The play button begins the note. The arrow buttons increment the note (they can also be used to start begin the note), and the stop button ends the note. Simple. 
+"Play" begins the note. The arrows increment the note (they can also begin the note), and "Stop" ends the note.
 
 The available notes represent the middle octave of the piano:
 
@@ -25,7 +25,7 @@ The available notes represent the middle octave of the piano:
 - 466.16: A#
 - 493.88: B
 
-The app has a blue tuning fork icon. 
+The app's icon is a blue tuning fork icon:
 
 <img width="512" alt="icon" src="https://github.com/user-attachments/assets/62e22077-efc8-464c-9beb-e504e5aeebef">
 
