@@ -1,4 +1,4 @@
-# Pitch Perfect
+# Pitch Perfect Tuner
 
 A watchOS app with a simple but useful functionality. Available in the App Store.
 
