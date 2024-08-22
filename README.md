@@ -25,22 +25,14 @@ The notes represent the middle octave of the piano:
 - 466.16: A#
 - 493.88: B
 
-The app's icon is a blue tuning fork icon:
-
-<img width="300" alt="icon" src="https://github.com/user-attachments/assets/62e22077-efc8-464c-9beb-e504e5aeebef">
-
-which can be seen in grid view as 
-
+The app is found in grid view as 
 
 <img width="306" alt="grid view" src="https://github.com/user-attachments/assets/0800e855-2fc8-4bd7-a1d6-2391dff0b8bc">
 
 or in list view as
 
-
 <img width="303" alt="list view" src="https://github.com/user-attachments/assets/4260d5ac-9054-4e5f-a326-aac1b448c442">
-
 
 Before using the app, please check **Settings > Sounds & Haptics > Turn off Silent Mode.**
 
 <img width="305" alt="Screenshot 2024-08-21 at 5 40 10 PM" src="https://github.com/user-attachments/assets/c92d6ff7-4553-4ca1-809b-9e01f0d5cd7a">
-
