@@ -8,7 +8,7 @@ Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go
 
 The UI consists of "Play", "Stop", and two arrows. 
 
-"Play" begins the note. The arrows increment the note (they can also begin the note), and "Stop" ends the note.
+"Play" begins the note. The arrows increment the note (they also begin the note, if it's not already playing). "Stop" ends the note.
 
 The available notes represent the middle octave of the piano:
 
