@@ -2,11 +2,13 @@
 
 A watchOS app with a simple but useful functionality. Available in the App Store now!
 
-Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go! Designed for musicians of all levels, this easy-to-use app plays every note of the chromatic scale with precision. Whether you're tuning a guitar, piano, or any other instrument, Pitch Perfect Tuner ensures your sound is always in perfect harmony. 
+Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go! Designed for musicians of all levels, this easy-to-use app plays every note of the chromatic scale. Whether you're tuning a guitar, piano, or any other instrument, Pitch Perfect Tuner ensures your sound is always in tune. 
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
 
-The UI consists of a play button, a stop button, and two arrow buttons. The play button starts playing the note, the arrow buttons increment the note (they can also be used to start playing the note), and the stop button makes the note stop playing.  
+The UI consists of a play button, a stop button, and two arrow buttons. 
+
+The play button begins the note. The arrow buttons increment the note (they can also be used to start begin the note), and the stop button ends the note. Simple. 
 
 The available notes represent the middle octave of the piano:
 
