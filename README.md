@@ -1,8 +1,6 @@
 # Pitch Perfect Tuner
 
-The first watchOS app that plays the notes of the chromatic scale, available free in the App Store.
-
-Introducing Pitch Perfect Tuner – your ultimate companion for tuning on the go! Designed for musicians of all levels, this easy-to-use app plays every note of the chromatic scale. Whether you're tuning a guitar, piano, or any other instrument, Pitch Perfect Tuner ensures your sound is always in tune. 
+The first watchOS app that plays the notes of the chromatic scale.
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
 
