@@ -1,6 +1,6 @@
 # Pitch Perfect Tuner
 
-The first watchOS app that plays the notes of the chromatic scale.
+The first watchOS app that plays the notes of the chromatic scale, intended to be used for providing a tuning reference. 
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
 
