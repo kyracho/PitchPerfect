@@ -17,15 +17,15 @@ The UI consists of "Play", "Stop", and two arrows.
 
 The notes represent the middle octave of the piano:
 
-- 261.63: C
-- 277.18: C#
-- 293.66: D
-- 311.13: D#
-- 329.63: E
-- 349.23: F
-- 369.99: F#
-- 392.00: G
-- 415.30: G#
-- 440.00: A
-- 466.16: A#
-- 493.88: B
+- 261.63 Hz: C
+- 277.18 Hz: C#
+- 293.66 Hz: D
+- 311.13 Hz: D#
+- 329.63 Hz: E
+- 349.23 Hz: F
+- 369.99 Hz: F#
+- 392.00 Hz: G
+- 415.30 Hz: G#
+- 440.00 Hz: A
+- 466.16 Hz: A#
+- 493.88 Hz: B
