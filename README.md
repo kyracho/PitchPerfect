@@ -1,9 +1,9 @@
 # Pitch Perfect Tuner
 
 Version 1.1 update: 
-- Fixed stopping/freezing bug
-- Added fade-in and fade-out for a smoother experience
-- New icon for improved identifiability
+- Fixes the stopping/freezing bug
+- Adds fade-in and fade-out for a smoother experience
+- Adds a new icon for improved identifiability
 
 The first watchOS app that plays the notes of the chromatic scale, intended to be used for a tuning reference. 
 
