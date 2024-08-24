@@ -1,6 +1,6 @@
 # Pitch Perfect Tuner
 
-Version 1.1 update: 
+Version 1.1: 
 - Fixes the stopping/freezing bug
 - Adds fade-in and fade-out for a smoother experience
 - Adds a new icon for improved identifiability
