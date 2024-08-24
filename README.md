@@ -25,13 +25,11 @@ The notes represent the middle octave of the piano:
 
 The app icon seen in grid view
 
-<img width="307" alt="Screenshot 2024-08-22 at 12 45 47 AM" src="https://github.com/user-attachments/assets/73e4e77c-0de6-4c6d-b96a-8de3eba9b353">
-
+<img width="307" alt="Screenshot 2024-08-23 at 6 37 19 PM" src="https://github.com/user-attachments/assets/93e91812-50a9-44d8-8211-1c32fdb46a0a">
 
 in list view
 
-<img width="303" alt="list view" src="https://github.com/user-attachments/assets/4260d5ac-9054-4e5f-a326-aac1b448c442">
-
+<img width="305" alt="Screenshot 2024-08-23 at 6 37 52 PM" src="https://github.com/user-attachments/assets/337fb0a8-caa6-49e2-a68b-32e63b25b612">
 
 **Settings > Sounds & Haptics > Turn off Silent Mode**.
 
