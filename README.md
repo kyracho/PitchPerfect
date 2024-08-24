@@ -28,14 +28,14 @@ The notes represent the middle octave of the piano:
 - 466.16: A#
 - 493.88: B
 
-The app icon seen in grid view
+Grid view
 
 <img width="307" alt="Screenshot 2024-08-23 at 6 37 19 PM" src="https://github.com/user-attachments/assets/93e91812-50a9-44d8-8211-1c32fdb46a0a">
 
-in list view
+List view
 
 <img width="305" alt="Screenshot 2024-08-23 at 6 37 52 PM" src="https://github.com/user-attachments/assets/337fb0a8-caa6-49e2-a68b-32e63b25b612">
 
-**Settings > Sounds & Haptics > Turn off Silent Mode**.
+**Settings > Sounds & Haptics > Turn off Silent Mode**
 
 <img width="305" alt="Screenshot 2024-08-21 at 5 40 10 PM" src="https://github.com/user-attachments/assets/c92d6ff7-4553-4ca1-809b-9e01f0d5cd7a">
