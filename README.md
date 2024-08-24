@@ -4,7 +4,8 @@ Version 1.1:
 - Fixes the stopping/freezing bug
 - Adds fade-in and fade-out for a smoother experience
 - Adds a new icon for improved identifiability
-
+- 
+__________________________________________________________________________________________________________________________________________________________________________________________________________________
 The first watchOS app that plays the notes of the chromatic scale, intended to be used for a tuning reference. 
 
 <img width="303" alt="app view" src="https://github.com/user-attachments/assets/86b089f8-9a27-4d3e-a731-79fd5c170175">
