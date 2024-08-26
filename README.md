@@ -50,4 +50,4 @@ Version 1.1:
   
 ### Credits
 ___
-@jpsim's idea to use zero crossings for the tuner. It resulted in simpler code with a higher accuracy compared to using FFT.
+[@jpsim's](https://github.com/jpsim) idea to use zero crossings for the tuner. It resulted in simpler code with a higher accuracy compared to using FFT.
