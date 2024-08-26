@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D25CF9E2C7BD4E100B7F495 /* TonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25CF9D2C7BD4E100B7F495 /* TonePlayer.swift */; };
+		4D25CFA22C7BDD4900B7F495 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25CFA12C7BDD4900B7F495 /* Metronome.swift */; };
+		4D25CFA42C7BDD5600B7F495 /* Chromatic Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25CFA32C7BDD5600B7F495 /* Chromatic Tuner.swift */; };
 		4D6A7FAF2C76994300154FF4 /* Pitch Perfect Tuner Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D6A7FAE2C76994300154FF4 /* Pitch Perfect Tuner Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4D6A7FB42C76994300154FF4 /* Pitch_Perfect_TunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A7FB32C76994300154FF4 /* Pitch_Perfect_TunerApp.swift */; };
 		4D6A7FB62C76994300154FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A7FB52C76994300154FF4 /* ContentView.swift */; };
 		4D6A7FB82C76994400154FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6A7FB72C76994400154FF4 /* Assets.xcassets */; };
 		4D6A7FBB2C76994400154FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6A7FBA2C76994400154FF4 /* Preview Assets.xcassets */; };
@@ -56,9 +58,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D25CF9D2C7BD4E100B7F495 /* TonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonePlayer.swift; sourceTree = "<group>"; };
+		4D25CFA12C7BDD4900B7F495 /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		4D25CFA32C7BDD5600B7F495 /* Chromatic Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chromatic Tuner.swift"; sourceTree = "<group>"; };
 		4D6A7FA82C76994300154FF4 /* Pitch Perfect Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect Tuner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6A7FAE2C76994300154FF4 /* Pitch Perfect Tuner Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect Tuner Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6A7FB32C76994300154FF4 /* Pitch_Perfect_TunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_Perfect_TunerApp.swift; sourceTree = "<group>"; };
 		4D6A7FB52C76994300154FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D6A7FB72C76994400154FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6A7FBA2C76994400154FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 		4D6A7FCA2C76994400154FF4 /* Pitch Perfect Tuner Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch Perfect Tuner Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6A7FCE2C76994400154FF4 /* Pitch_Perfect_Tuner_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_Perfect_Tuner_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		4D6A7FD02C76994400154FF4 /* Pitch_Perfect_Tuner_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_Perfect_Tuner_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DAE01172C796D800087E6B8 /* Pitch-Perfect-Tuner-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pitch-Perfect-Tuner-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +123,10 @@
 		4D6A7FB22C76994300154FF4 /* Pitch Perfect Tuner Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				4D6A7FB32C76994300154FF4 /* Pitch_Perfect_TunerApp.swift */,
+				4D25CFA12C7BDD4900B7F495 /* Metronome.swift */,
+				4D25CFA32C7BDD5600B7F495 /* Chromatic Tuner.swift */,
+				4D25CF9D2C7BD4E100B7F495 /* TonePlayer.swift */,
+				4DAE01172C796D800087E6B8 /* Pitch-Perfect-Tuner-Watch-App-Info.plist */,
 				4D6A7FB52C76994300154FF4 /* ContentView.swift */,
 				4D6A7FB72C76994400154FF4 /* Assets.xcassets */,
 				4D6A7FB92C76994400154FF4 /* Preview Content */,
@@ -309,8 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D25CFA42C7BDD5600B7F495 /* Chromatic Tuner.swift in Sources */,
+				4D25CFA22C7BDD4900B7F495 /* Metronome.swift in Sources */,
+				4D25CF9E2C7BD4E100B7F495 /* TonePlayer.swift in Sources */,
 				4D6A7FB62C76994300154FF4 /* ContentView.swift in Sources */,
-				4D6A7FB42C76994300154FF4 /* Pitch_Perfect_TunerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,19 +482,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Pitch Perfect Tuner Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pitch-Perfect-Tuner-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Pitch Perfect Tuner";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your app needs access to the microphone to detect pitch.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -502,19 +514,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Pitch Perfect Tuner Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pitch-Perfect-Tuner-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Pitch Perfect Tuner";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your app needs access to the microphone to detect pitch.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -532,10 +546,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pitch Perfect Tuner";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -548,10 +562,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pitch Perfect Tuner";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -566,10 +580,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -587,10 +601,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -608,10 +622,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -628,10 +642,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = 6FF928HX3W;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Cho.Pitch-Perfect-Tuner-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
