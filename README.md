@@ -45,8 +45,8 @@ Version 1.2:
 
 Version 1.1: 
 - Fixes the stopping/freezing bug
-- Adds fade-in and fade-out for a smoother experience
-- Adds a new icon for improved identifiability
+- Adds sound fade-in and sound fade-out
+- Aew icon
   
 ### Credits
 ___
