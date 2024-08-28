@@ -4,7 +4,7 @@ Hi, I believe this is the first watchOS app that combines a metronome, a chromat
 
 Please note: 
 - The chromatic tuner is accurate to around 1 Hz.
-- The metronome at times begins ever-so-slighly off tempo, for the first few notes. I've been able to improve upon the issue, but have not completely solved it, yet. 
+- The metronome at times begins ever-so-slighly off tempo, for the first few notes.
  
 Please enjoy this simple and useful app designed around minimalist principles :) 
 
