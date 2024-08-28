@@ -7,6 +7,8 @@
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 58 PM" src="https://github.com/user-attachments/assets/12e70d93-3516-4210-b60e-8bd5a80a5e62">
 
 
+### **Versions**
+---
 Version 1.2
 - Adopts minimalist UI
 - Adds metronome function
