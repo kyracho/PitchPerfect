@@ -1,6 +1,6 @@
 ### Pitch Perfect Tuner 
 
-I _think_ this is the first watchOS app that combines a metronome, a chromatic tuner, and a note player in one app. 
+Hi, I believe this is the first watchOS app that combines a metronome, a chromatic tuner, and a note player in one. 
 
 Despite the name _Pitch Perfect Tuner_: 
 - The chromatic tuner is accurate to within 1 Hz.
