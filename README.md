@@ -6,7 +6,7 @@ Please note:
 - The chromatic tuner is accurate to around 1 Hz.
 - The metronome at times begins ever-so-slighly off tempo, for the first few notes.
  
-Please enjoy this simple and useful app designed around minimalist principles :) 
+Please enjoy this simple and useful app built on minimalist design principles :) 
 
 On the Apple store, exclusivly for watchOS, at no charge.  
 
