@@ -16,6 +16,7 @@ Version 1.2
 
 Version 1.1 
 - Fixes freezing bug
+- Adds sound fade-in and sound fade-out
 
 Version 1.0
 - Initial release
