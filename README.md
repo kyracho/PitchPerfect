@@ -2,11 +2,7 @@
 
 Hi, I believe this is the first watchOS app that combines a metronome, a chromatic tuner, and a note player in one. 
 
-Please note: 
-- The chromatic tuner is accurate to around 1 Hz.
-- The metronome at times begins ever-so-slighly off tempo, for the first few notes. It seems like this could be due to the hardware limitations of the apple watch.
- 
-Despite that, it is a simple and useful tool for music lovers.
+Please note: the chromatic tuner is only accurate to around 1 Hz.
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 34 PM" src="https://github.com/user-attachments/assets/f9976730-cb27-460f-8fa5-1370744833d0">
 
