@@ -6,7 +6,7 @@ Please note:
 - The chromatic tuner is accurate to around 1 Hz.
 - The metronome at times begins ever-so-slighly off tempo, for the first few notes. It seems this could be due to the hardware limitations of the apple watch.
  
-A simple and useful app for music lovers like myself :) 
+It is a simple and useful tool for music lovers.
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 34 PM" src="https://github.com/user-attachments/assets/f9976730-cb27-460f-8fa5-1370744833d0">
 
