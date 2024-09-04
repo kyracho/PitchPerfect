@@ -32,4 +32,4 @@ Version 1.0
 
 ### **Credits**
 ___
-Thank you [@JPSim ](https://github.com/jpsim/ZenTuner) for the idea to use zero crossings for the chromatic tuner. My initial app using FFT was not accurate.
+Thank you [@JPSim ](https://github.com/jpsim/ZenTuner) for the idea to use zero crossings for the chromatic tuner. My initial method using FFT was not as accurate.
