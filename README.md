@@ -4,7 +4,7 @@ Hi, this is my watchOS app that combines a metronome, a chromatic tuner, and a n
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 34 PM" src="https://github.com/user-attachments/assets/f9976730-cb27-460f-8fa5-1370744833d0">
 
-The main menu allows you to choose between the three functionalities. 
+You can choose between the three functionalities from the menu.
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 36 24 PM" src="https://github.com/user-attachments/assets/5230f656-fb6d-4f11-96e9-52fb6a7834ab">
 
