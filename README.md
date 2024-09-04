@@ -1,6 +1,6 @@
 ### Welcome to Pitch Perfect Tuner
 
-Hi, this is my watchOS app that combines a metronome, a chromatic tuner, and a note player in one. 
+Hello, welcome. This is my watchOS app that combines a metronome, a chromatic tuner, and a note player in one. 
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 34 PM" src="https://github.com/user-attachments/assets/f9976730-cb27-460f-8fa5-1370744833d0">
 
