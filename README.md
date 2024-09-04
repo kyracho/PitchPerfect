@@ -8,7 +8,7 @@ You can choose between the three functionalities from the menu.
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 36 24 PM" src="https://github.com/user-attachments/assets/5230f656-fb6d-4f11-96e9-52fb6a7834ab">
 
-The chromatic tuner works for a very wide range, wide enough to be used with any musical instrument on the planet. The tuner itself is accurate to around 1 Hz, which is more accurate than comparible tuner apps I found.
+The chromatic tuner works for a very wide range of frequencies, wide enough to be used with any musical instrument on the planet. The tuner itself is accurate to around 1 Hz, which is more accurate than comparible tuner apps I found.
 
 <img height="310" alt="Screenshot 2024-08-27 at 1 41 36 PM" src="https://github.com/user-attachments/assets/a6315a70-d5a3-4602-b619-474d428c5e6c">
 
