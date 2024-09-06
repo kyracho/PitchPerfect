@@ -16,7 +16,8 @@ The note player plays the notes of the chromatic scale. This will be useful if y
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 58 PM" src="https://github.com/user-attachments/assets/12e70d93-3516-4210-b60e-8bd5a80a5e62">
 
-To build this app on your own Apple Watch:
+You can build this app on your own Apple Watch.
+___
 - Step 1: Clone the repository locally.
 - Step 2: Open the project in Xcode.
 - Step 3: Ensure the `icon.png` file is in `Pitch Perfect Tuner Watch App/Assets/Applconset`.
