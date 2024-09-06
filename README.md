@@ -1,4 +1,4 @@
-## Welcome to Pitch Perfect Tuner
+# Welcome to Pitch Perfect Tuner
 
 Hello, welcome. This is my watchOS app that combines a metronome, a chromatic tuner, and a note player in one. 
 
@@ -18,7 +18,7 @@ The note player plays the notes of the chromatic scale. This will be useful if y
 
 ___
 
-## Build the Pitch Perfect Tuner Watch App on Your Own Apple Watch
+# Build the Pitch Perfect Tuner Watch App on Your Own Apple Watch
 
 Follow these steps to build and run the **Pitch Perfect Tuner** app on your Apple Watch.
 
@@ -68,7 +68,7 @@ Xcode will build the app, install it on your Apple Watch, and launch the app aut
 After the app is installed, you're all set to use the **Pitch Perfect Tuner** app on your Apple Watch. 
 
 
-## **Versions**
+# **Versions**
 ___
 Version 1.2
 - Adopts minimalistic UI
@@ -82,6 +82,6 @@ Version 1.1
 Version 1.0
 - Initial release
 
-## **Credits**
+# **Credits**
 ___
 Thank you [@JPSim ](https://github.com/jpsim/ZenTuner) for the idea to use zero crossings for the chromatic tuner. My initial method using FFT was not as accurate.
