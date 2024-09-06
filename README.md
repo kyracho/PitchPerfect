@@ -16,7 +16,6 @@ The note player plays the notes of the chromatic scale. This will be useful if y
 
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 58 PM" src="https://github.com/user-attachments/assets/12e70d93-3516-4210-b60e-8bd5a80a5e62">
 
-___
 
 # Build the Pitch Perfect Tuner Watch App on Your Own Apple Watch
 
@@ -69,7 +68,6 @@ After the app is installed, you're all set to use the **Pitch Perfect Tuner** ap
 
 
 # **Versions**
-___
 Version 1.2
 - Adopts minimalistic UI
 - Adds metronome function
@@ -83,5 +81,4 @@ Version 1.0
 - Initial release
 
 # **Credits**
-___
 Thank you [@JPSim ](https://github.com/jpsim/ZenTuner) for the idea to use zero crossings for the chromatic tuner. My initial method using FFT was not as accurate.
