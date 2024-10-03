@@ -17,7 +17,7 @@ The note player plays the notes of the chromatic scale. This will be useful if y
 <img height="310" alt="Screenshot 2024-08-25 at 7 29 58 PM" src="https://github.com/user-attachments/assets/12e70d93-3516-4210-b60e-8bd5a80a5e62">
 
 
-# Build the Pitch Perfect Tuner Watch App on Your Own Apple Watch
+# Steps to building my app
 
 Follow these steps to build and run the **Pitch Perfect Tuner** app on your Apple Watch.
 
